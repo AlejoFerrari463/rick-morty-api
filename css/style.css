@@ -1,0 +1,25 @@
+
+/* HEADER - INICIO */
+
+
+.navbar-collapse {
+
+    display: grid;
+    justify-content: center;
+    margin-right: 200px;
+
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-imagen-titulo {
+
+    height: 60px;
+    width: 60px;
+
+}
+
+
+/* HEADER - FIN */

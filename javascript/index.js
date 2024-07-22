@@ -10,13 +10,10 @@ function cargarUrl(url){
     })
     .then((data)=>{
 
-       
-
 
         data.results.forEach(element => {
 
            
-
             const {name,episode} = element
             
             console.log(name,"Episodios:",episode.length)
