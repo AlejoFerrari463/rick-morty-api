@@ -18,16 +18,43 @@ function cargarUrl(url){
 
     
         
-            const {name,episode,species,image} = element
+            const {id,name,episode,species,image,status} = element
             
             console.log(element)
            
             const card = document.createElement("div")
             card.classList.add("cards")
             card.innerHTML=`
-                ${name}
-                <div>${species}</div>
                 <img src="${image}">
+
+
+                <div class="mt-5" >
+
+
+                    <div>
+                        ${name} 
+                    </div>
+
+                    <div> 
+                        ${species}
+                    </div>
+
+                    <div> 
+                        Apariciones: ${episode.length}
+                    </div>
+
+                    <div> 
+                        (${status})
+                    </div>
+                    
+
+                </div>
+
+                
+                    <div class="cards-id" >
+                        ${id} 
+                    </div>
+                
             `
             contenedorCards.appendChild(card)
 
