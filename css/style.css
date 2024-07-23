@@ -23,3 +23,31 @@
 
 
 /* HEADER - FIN */
+
+
+/* CARDS - INICIO */
+
+
+.cards-contenedor {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aqua;
+    justify-items: center;
+    margin-top: -30px;
+
+
+}
+
+.cards {
+
+
+    background-color: red;
+    width: 90%;
+    height: 600px;
+    font-size: 30px;
+    margin-top: 70px;
+   text-align: center;
+
+
+}
