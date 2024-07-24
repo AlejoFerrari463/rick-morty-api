@@ -1,4 +1,4 @@
-import * as carga from "./cargarPagina.js"
+import * as carga from "./cargarPersonajes.js"
 
 
 const url = "https://rickandmortyapi.com/api/character?page=1"

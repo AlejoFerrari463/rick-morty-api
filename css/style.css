@@ -21,12 +21,20 @@ body {
 
 /* HEADER - INICIO */
 
+.navbar {
+
+    background-color: green;
+    
+
+}
+
 
 .navbar-collapse {
 
     display: grid;
     justify-content: center;
     margin-right: 200px;
+  
 
 }
 
