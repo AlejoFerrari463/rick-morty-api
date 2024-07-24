@@ -12,7 +12,7 @@ function cargarUrl(url){
     })
     .then((data)=>{
 
-      
+        console.log(data.info.next)
 
         data.results.forEach(element => {
 
@@ -60,7 +60,7 @@ function cargarUrl(url){
 
 
         })
-        // console.log("")
+        
         // if(data.info.next){
         //     cargarUrl(data.info.next)
         // }

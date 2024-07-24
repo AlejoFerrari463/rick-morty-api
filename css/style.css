@@ -77,3 +77,29 @@
     font-size: 25px;
 
 }
+
+.contenedor-buttons {
+
+    position: fixed;
+    bottom: 35px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+
+.button{
+
+    width: 100px;
+    height: 60px;
+    background-color: green;
+    margin: 0 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+
