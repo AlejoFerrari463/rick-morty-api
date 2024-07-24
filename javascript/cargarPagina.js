@@ -30,7 +30,7 @@ contenedorCards.innerHTML=``
                 </div>
 
 
-                <img src="${image}">   
+                <img class="cards-imagen" src="${image}">   
 
                 <div class="mt-5" >
 

@@ -1,3 +1,23 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-image: url("https://i.pinimg.com/originals/09/29/03/092903f1adf553f2bdf29fe12445f8f5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+}
+
+
+
 
 /* HEADER - INICIO */
 
@@ -32,7 +52,6 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: aqua;
     justify-items: center;
     margin-top: -30px;
     margin-bottom: 30px;
@@ -46,7 +65,7 @@
     background-color: red;
     width: 90%;
     height: 300px;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 70px;
     text-align: center;
     display: grid;
@@ -54,6 +73,7 @@
     justify-items: center;
     align-content: center;
     position: relative;
+    border-radius: 20px;
 
 
 }
@@ -66,7 +86,9 @@
 
 .cards-imagen {
 
-    height: 100%;
+    border-radius: 10px;
+    border: 3px solid white;
+    height: 270px;
 
 }
 
@@ -74,9 +96,15 @@
 
     position: absolute;
     right: 10px;
-    font-size: 25px;
+    font-size: 20px;
+   
 
 }
+
+/* CARDS - FIN */
+
+
+/* BUTTONS - INICIO */
 
 .contenedor-buttons {
 
@@ -94,8 +122,8 @@
 
 .button{
 
-    width: 100px;
-    height: 60px;
+    width: 90px;
+    height: 50px;
     background-color: green;
     margin: 0 30px;
     border-radius: 5px;
@@ -109,3 +137,5 @@
 
 }
 
+
+/* BUTTONS - FIN */
