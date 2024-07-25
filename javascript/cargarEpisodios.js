@@ -13,39 +13,53 @@ fetch(url)
 })
 .then(data=>{
 
-    console.log(data.info)
+
     
     data.results.forEach(element => {
-        
-        console.log(element)
+ 
 
-        const {name, air_date, episode} = element
+        const {id, name, air_date, episode,characters} = element
 
         const card = document.createElement("div")
         card.classList.add("cards-episodios")
 
-       
+        console.log(element)
 
         card.innerHTML=`
 
             <div>
-                ${name}
+                <span class="text-decoration-underline fw-bold" >Name:</span> ${name}
             </div>
 
             <div>
-                ${air_date}
+                <span class="text-decoration-underline fw-bold" >Aire Date:</span> ${air_date}
             </div>
 
             <div>
-                ${episode}
+                <span class="text-decoration-underline fw-bold" >Season:</span> ${episode}
+            </div>
+
+            <div>
+                <span class="text-decoration-underline fw-bold" >Characters apparitions:</span> ${characters.length}
             </div>
           
+            <div class="cards-episodios-id" >
+                ${id}
+            </div>
         
         `
+    
 
+        
+ 
         contenedorCards.appendChild(card)
 
+        
+
+
     });
+
+
     if(data.info.next){
         next.classList.remove("button-desact")
     }

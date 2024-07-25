@@ -4,7 +4,7 @@
 .cards-episodios-contenedor {
 
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     margin-top: -30px;
     margin-bottom: 30px;
@@ -14,8 +14,12 @@
 
 .cards-episodios {
 
-    background-color: red;
-    width: 70%;
+    // background-image: url("../images/rickandmorty.gif");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center;
+    background-color: rgb(43, 42, 42);
+    width: 80%;
     height: 300px;
     font-size: 25px;
     margin-top: 70px;
@@ -26,5 +30,16 @@
     align-content: center;
     position: relative;
     border-radius: 20px;
+    box-shadow: 0px 0px 4px white,-0px -0px 4px white;
+    color: wheat;
+
+}
+
+.cards-episodios-id {
+
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+   
 
 }
