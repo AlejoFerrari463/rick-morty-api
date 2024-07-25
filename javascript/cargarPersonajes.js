@@ -3,10 +3,6 @@ export function cargarUrl(url){
 
 const contenedorCards = document.querySelector(".cards-personajes-contenedor")
 
-const next = document.querySelector("#next")
-const prev = document.querySelector("#prev")
-
-
 contenedorCards.innerHTML=``
 
     fetch(url)
@@ -78,8 +74,8 @@ contenedorCards.innerHTML=``
             prev.classList.add("button-desact")
         }
       
-        localStorage.setItem("prev",data.info.prev)
-        localStorage.setItem("next",data.info.next)
+        localStorage.setItem("prevPersonajes",data.info.prev)
+        localStorage.setItem("nextPersonajes",data.info.next)
        
 
     })

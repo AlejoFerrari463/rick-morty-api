@@ -3,18 +3,20 @@ import * as carga from "./cargarPersonajes.js"
 
 const url = "https://rickandmortyapi.com/api/character?page=1"
 
+const next = document.querySelector("#next")
+const prev = document.querySelector("#prev")
 
 carga.cargarUrl(url)
 
-let prevStorage = localStorage.getItem("prev")
-let nextStorage = localStorage.getItem("next")
+let prevStorage = localStorage.getItem("prevPersonajes")
+let nextStorage = localStorage.getItem("nextPersonajes")
 
 
 
 next.addEventListener("click",()=>{
     
-    nextStorage = localStorage.getItem("next")
-    prevStorage = localStorage.getItem("prev")
+    nextStorage = localStorage.getItem("nextPersonajes")
+    prevStorage = localStorage.getItem("prevPersonajes")
 
     carga.cargarUrl(nextStorage)
     
@@ -22,13 +24,11 @@ next.addEventListener("click",()=>{
 
 prev.addEventListener("click",()=>{
 
-    nextStorage = localStorage.getItem("next")
-    prevStorage = localStorage.getItem("prev")
+    nextStorage = localStorage.getItem("nextPersonajes")
+    prevStorage = localStorage.getItem("prevPersonajes")
 
     carga.cargarUrl(prevStorage)
    
     
 })
 
-nextStorage = localStorage.getItem("next")
-prevStorage = localStorage.getItem("prev")
