@@ -1,7 +1,7 @@
 
 export function cargarUrl(url){
 
-const contenedorCards = document.querySelector(".cards-contenedor")
+const contenedorCards = document.querySelector(".cards-personajes-contenedor")
 
 const next = document.querySelector("#next")
 const prev = document.querySelector("#prev")
@@ -22,15 +22,15 @@ contenedorCards.innerHTML=``
             
            
             const card = document.createElement("div")
-            card.classList.add("cards")
+            card.classList.add("cards-personajes")
             card.innerHTML=`
 
-                <div class="cards-id" >
+                <div class="cards-personajes-id" >
                     ${id} 
                 </div>
 
 
-                <img class="cards-imagen" src="${image}">   
+                <img class="cards-personajes-imagen" src="${image}">   
 
                 <div class="mt-5" >
 

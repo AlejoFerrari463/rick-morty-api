@@ -1,149 +1,105 @@
-*{
-
-    margin: 0;
-    padding: 0;
-
+/* GENERALES - INICIO */
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-
-    background-image: url("https://i.pinimg.com/originals/09/29/03/092903f1adf553f2bdf29fe12445f8f5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-
-    
+  background-image: url("https://i.pinimg.com/originals/09/29/03/092903f1adf553f2bdf29fe12445f8f5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-
-
-
+/* GENERALES - FIN */
 /* HEADER - INICIO */
-
 .navbar {
-
-    background-color: green;
-    
-
+  background-color: green;
 }
-
 
 .navbar-collapse {
-
-    display: grid;
-    justify-content: center;
-    margin-right: 200px;
-  
-
+  display: grid;
+  justify-content: center;
+  margin-right: 200px;
 }
 
 .navbar-toggler:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .navbar-imagen-titulo {
-
-    height: 60px;
-    width: 60px;
-
+  height: 60px;
+  width: 60px;
 }
-
 
 /* HEADER - FIN */
-
-
-/* CARDS - INICIO */
-
-
-.cards-contenedor {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    margin-top: -30px;
-    margin-bottom: 30px;
-
-
+/* CARDS-PERSONAJES - INICIO */
+.cards-personajes-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
 }
 
-.cards {
-
-
-    background-color: red;
-    width: 90%;
-    height: 300px;
-    font-size: 25px;
-    margin-top: 70px;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-content: center;
-    position: relative;
-    border-radius: 20px;
-
-
+.cards-personajes {
+  background-color: red;
+  width: 90%;
+  height: 300px;
+  font-size: 25px;
+  margin-top: 70px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  position: relative;
+  border-radius: 20px;
 }
 
-.cards:hover {
-
-    box-shadow: 2px 2px 10px palevioletred;
-
+.cards-personajes:hover {
+  box-shadow: 2px 2px 10px palevioletred;
 }
 
-.cards-imagen {
-
-    border-radius: 10px;
-    border: 3px solid white;
-    height: 270px;
-
+.cards-personajes-imagen {
+  border-radius: 10px;
+  border: 3px solid white;
+  height: 270px;
 }
 
-.cards-id {
-
-    position: absolute;
-    right: 10px;
-    font-size: 20px;
-   
-
+.cards-personajes-id {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
 }
 
-/* CARDS - FIN */
-
-
+/* CARDS-PERSONAJES - FIN */
 /* BUTTONS - INICIO */
-
 .contenedor-buttons {
-
-    position: fixed;
-    bottom: 35px;
-    left: 0px;
-    right: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-   
-
+  position: fixed;
+  bottom: 35px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.button{
-
-    width: 90px;
-    height: 50px;
-    background-color: green;
-    margin: 0 30px;
-    border-radius: 5px;
-    border: none;
-
+.button {
+  width: 90px;
+  height: 50px;
+  background-color: green;
+  margin: 0 30px;
+  border-radius: 5px;
+  border: none;
 }
 
 .button-desact {
-
-    display: none;
-
+  display: none;
 }
 
-
 /* BUTTONS - FIN */
+/* CARDS-EPISODIOS - FIN */
+
+/*# sourceMappingURL=style.css.map */
