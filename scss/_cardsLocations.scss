@@ -1,58 +1,39 @@
-/* CARDS-PERSONAJES - INICIO */
-
-
-.cards-personajes-contenedor {
+.cards-locations-contenedor {
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     margin-top: -30px;
     margin-bottom: 30px;
-
+    
+    
 
 }
 
-.cards-personajes {
+
+.cards-locations {
 
 
     background-color: rgb(43, 42, 42);
-    width: 90%;
+    width: 75%;
     height: 300px;
     font-size: 25px;
     margin-top: 70px;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
     align-content: center;
     position: relative;
-    border-radius: 20px;
+    border-radius: 100%;
     color: wheat;
     box-shadow: 0px 0px 4px white,-0px -0px 4px white;
 
 
 }
 
-.cards-personajes:hover {
+.cards-locations:hover {
 
     box-shadow: 2px 2px 10px cyan,  -2px -2px 10px cyan;
 
 }
-
-.cards-personajes-imagen {
-
-    border-radius: 10px;
-    height: 270px;
-
-}
-
-.cards-personajes-id {
-
-    position: absolute;
-    right: 10px;
-    font-size: 20px;
-   
-
-}
-
-/* CARDS-PERSONAJES - FIN */

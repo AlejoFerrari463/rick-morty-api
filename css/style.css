@@ -34,48 +34,6 @@ body {
 }
 
 /* HEADER - FIN */
-/* CARDS-PERSONAJES - INICIO */
-.cards-personajes-contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  margin-top: -30px;
-  margin-bottom: 30px;
-}
-
-.cards-personajes {
-  background-color: blue;
-  width: 90%;
-  height: 300px;
-  font-size: 25px;
-  margin-top: 70px;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-content: center;
-  position: relative;
-  border-radius: 20px;
-  color: wheat;
-  box-shadow: 0px 0px 4px white, 0px 0px 4px white;
-}
-
-.cards-personajes:hover {
-  box-shadow: 2px 2px 10px palevioletred;
-}
-
-.cards-personajes-imagen {
-  border-radius: 10px;
-  height: 270px;
-}
-
-.cards-personajes-id {
-  position: absolute;
-  right: 10px;
-  font-size: 20px;
-}
-
-/* CARDS-PERSONAJES - FIN */
 /* BUTTONS - INICIO */
 .contenedor-buttons {
   position: fixed;
@@ -101,8 +59,8 @@ body {
 }
 
 /* BUTTONS - FIN */
-/* CARDS-EPISODIOS - FIN */
-.cards-episodios-contenedor {
+/* CARDS-PERSONAJES - INICIO */
+.cards-personajes-contenedor {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -110,8 +68,50 @@ body {
   margin-bottom: 30px;
 }
 
+.cards-personajes {
+  background-color: rgb(43, 42, 42);
+  width: 90%;
+  height: 300px;
+  font-size: 25px;
+  margin-top: 70px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  position: relative;
+  border-radius: 20px;
+  color: wheat;
+  box-shadow: 0px 0px 4px white, 0px 0px 4px white;
+}
+
+.cards-personajes:hover {
+  box-shadow: 2px 2px 10px cyan, -2px -2px 10px cyan;
+}
+
+.cards-personajes-imagen {
+  border-radius: 10px;
+  height: 270px;
+}
+
+.cards-personajes-id {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+}
+
+/* CARDS-PERSONAJES - FIN */
+/* CARDS-EPISODIOS - FIN */
+.cards-episodios-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
 .cards-episodios {
-  background-color: gray;
+  background-color: rgb(43, 42, 42);
   width: 80%;
   height: 300px;
   font-size: 25px;
@@ -127,10 +127,43 @@ body {
   color: wheat;
 }
 
+.cards-episodios:hover {
+  box-shadow: 2px 2px 10px cyan, -2px -2px 10px cyan;
+}
+
 .cards-episodios-id {
   position: absolute;
   right: 10px;
   font-size: 20px;
+}
+
+.cards-locations-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.cards-locations {
+  background-color: rgb(43, 42, 42);
+  width: 75%;
+  height: 300px;
+  font-size: 25px;
+  margin-top: 70px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+  position: relative;
+  border-radius: 100%;
+  color: wheat;
+  box-shadow: 0px 0px 4px white, 0px 0px 4px white;
+}
+
+.cards-locations:hover {
+  box-shadow: 2px 2px 10px cyan, -2px -2px 10px cyan;
 }
 
 /*# sourceMappingURL=style.css.map */
