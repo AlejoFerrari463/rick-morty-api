@@ -15,7 +15,6 @@ export function cargarUrl(url){
         
         data.results.forEach(element => {
             
-            let personajes = ""
 
             console.log(element)
 
@@ -27,20 +26,24 @@ export function cargarUrl(url){
 
             cards.innerHTML=`
 
-                <div>
+                <div class="cards-locations-id" >
                     ${id}
                 </div>
 
                 <div>
-                    ${name}
+                    <span class="text-decoration-underline fw-bold" >Name:</span> ${name}
                 </div>
 
                 <div>
-                    ${type}
+                    <span class="text-decoration-underline fw-bold" >Type:</span> ${type}
                 </div>
 
                 <div>
-                    ${dimension}
+                    <span class="text-decoration-underline fw-bold" >Dimension:</span>: ${dimension}
+                </div>
+
+                <div>
+                    <span class="text-decoration-underline fw-bold" >Residents:</span> ${residents.length}
                 </div>
               
             

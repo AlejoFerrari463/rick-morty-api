@@ -30,7 +30,7 @@ body {
 
 .navbar-imagen-titulo {
   height: 60px;
-  width: 60px;
+  width: 90px;
 }
 
 /* HEADER - FIN */
@@ -139,17 +139,21 @@ body {
 
 .cards-locations-contenedor {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   margin-top: -30px;
   margin-bottom: 30px;
 }
 
 .cards-locations {
+  background-image: url("https://i0.wp.com/w0.peakpx.com/wallpaper/781/462/HD-wallpaper-rick-and-morty-funny-minimal-rick-and-morty-rick-y-morty-thumbnail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   background-color: rgb(43, 42, 42);
-  width: 75%;
-  height: 300px;
-  font-size: 25px;
+  width: 70%;
+  height: 400px;
+  font-size: 20px;
   margin-top: 70px;
   text-align: center;
   display: grid;
@@ -157,13 +161,17 @@ body {
   justify-items: center;
   align-content: center;
   position: relative;
-  border-radius: 100%;
+  border-radius: 80%;
   color: wheat;
   box-shadow: 0px 0px 4px white, 0px 0px 4px white;
 }
 
 .cards-locations:hover {
   box-shadow: 2px 2px 10px cyan, -2px -2px 10px cyan;
+}
+
+.cards-locations-id {
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */
