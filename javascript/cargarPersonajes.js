@@ -25,10 +25,9 @@ contenedorCards.innerHTML=``
                     ${id} 
                 </div>
 
+                <img class="cards-personajes-imagen" src="${image}" alt="${name}">   
 
-                <img class="cards-personajes-imagen" src="${image}">   
-
-                <div class="mt-5" >
+                <div class="cards-margen" >
 
 
                     <div>

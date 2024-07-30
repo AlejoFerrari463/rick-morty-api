@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("https://i.pinimg.com/originals/09/29/03/092903f1adf553f2bdf29fe12445f8f5.jpg");
+  background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -15,13 +15,17 @@ body {
 /* GENERALES - FIN */
 /* HEADER - INICIO */
 .navbar {
-  background-color: green;
+  background-color: #60a85f;
+}
+
+.nav-link {
+  color: black;
+  font-weight: bold;
 }
 
 .navbar-collapse {
   display: grid;
   justify-content: center;
-  margin-right: 200px;
 }
 
 .navbar-toggler:focus {
@@ -31,6 +35,7 @@ body {
 .navbar-imagen-titulo {
   height: 60px;
   width: 90px;
+  background-color: green;
 }
 
 /* HEADER - FIN */
@@ -48,10 +53,12 @@ body {
 .button {
   width: 90px;
   height: 50px;
-  background-color: green;
+  background-color: #88e23b;
   margin: 0 30px;
   border-radius: 5px;
   border: none;
+  color: black;
+  font-weight: bold;
 }
 
 .button-desact {
@@ -69,9 +76,8 @@ body {
 }
 
 .cards-personajes {
-  background-color: rgb(43, 42, 42);
+  background-color: #043c6e;
   width: 90%;
-  height: 300px;
   font-size: 25px;
   margin-top: 70px;
   text-align: center;
@@ -81,23 +87,26 @@ body {
   align-content: center;
   position: relative;
   border-radius: 20px;
-  color: wheat;
-  box-shadow: 0px 0px 4px white, 0px 0px 4px white;
+  color: #ebe480;
 }
 
 .cards-personajes:hover {
-  box-shadow: 2px 2px 10px cyan, -2px -2px 10px cyan;
+  box-shadow: 2px 2px 5px cyan, -5px -5px 10px #a6cccc;
 }
 
 .cards-personajes-imagen {
   border-radius: 10px;
-  height: 270px;
+  padding-right: 1px;
 }
 
 .cards-personajes-id {
   position: absolute;
   right: 10px;
   font-size: 20px;
+}
+
+.cards-margen {
+  margin-top: 70px;
 }
 
 /* CARDS-PERSONAJES - FIN */
@@ -111,7 +120,7 @@ body {
 }
 
 .cards-episodios {
-  background-color: rgb(43, 42, 42);
+  background-color: #043c6e;
   width: 80%;
   height: 300px;
   font-size: 25px;
@@ -123,12 +132,11 @@ body {
   align-content: center;
   position: relative;
   border-radius: 20px;
-  box-shadow: 0px 0px 4px white, 0px 0px 4px white;
-  color: wheat;
+  color: #ebe480;
 }
 
 .cards-episodios:hover {
-  box-shadow: 2px 2px 10px cyan, -2px -2px 10px cyan;
+  box-shadow: 2px 2px 5px cyan, -2px -2px 5px #a6cccc;
 }
 
 .cards-episodios-id {
@@ -146,11 +154,7 @@ body {
 }
 
 .cards-locations {
-  background-image: url("https://i0.wp.com/w0.peakpx.com/wallpaper/781/462/HD-wallpaper-rick-and-morty-funny-minimal-rick-and-morty-rick-y-morty-thumbnail.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  background-color: rgb(43, 42, 42);
+  background-color: #043c6e;
   width: 70%;
   height: 400px;
   font-size: 20px;
@@ -162,12 +166,11 @@ body {
   align-content: center;
   position: relative;
   border-radius: 80%;
-  color: wheat;
-  box-shadow: 0px 0px 4px white, 0px 0px 4px white;
+  color: #ebe480;
 }
 
 .cards-locations:hover {
-  box-shadow: 2px 2px 10px cyan, -2px -2px 10px cyan;
+  box-shadow: 2px 2px 5px cyan, -2px -2px 5px #a6cccc;
 }
 
 .cards-locations-id {

@@ -15,9 +15,8 @@
 .cards-personajes {
 
 
-    background-color: rgb(43, 42, 42);
+    background-color: $color-fondo-card;
     width: 90%;
-    height: 300px;
     font-size: 25px;
     margin-top: 70px;
     text-align: center;
@@ -27,22 +26,20 @@
     align-content: center;
     position: relative;
     border-radius: 20px;
-    color: wheat;
-    box-shadow: 0px 0px 4px white,-0px -0px 4px white;
-
-
+    color: $color-letra;
+   
 }
 
 .cards-personajes:hover {
 
-    box-shadow: 2px 2px 10px cyan,  -2px -2px 10px cyan;
+    box-shadow: 2px 2px 5px cyan,  -5px -5px 10px $color-borde-card;
 
 }
 
 .cards-personajes-imagen {
 
     border-radius: 10px;
-    height: 270px;
+    padding-right: 1px;
 
 }
 
@@ -52,6 +49,12 @@
     right: 10px;
     font-size: 20px;
    
+
+}
+
+.cards-margen {
+
+    margin-top: 70px;
 
 }
 

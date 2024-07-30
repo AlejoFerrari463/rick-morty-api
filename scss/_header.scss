@@ -2,8 +2,15 @@
 
 .navbar {
 
-    background-color: green;
+    background-color: $color-header;
     
+
+}
+
+.nav-link {
+
+    color: black;
+    font-weight: bold;
 
 }
 
@@ -12,8 +19,7 @@
 
     display: grid;
     justify-content: center;
-    margin-right: 200px;
-  
+
 
 }
 
@@ -25,6 +31,7 @@
 
     height: 60px;
     width: 90px;
+    background-color: green;
 
 }
 
