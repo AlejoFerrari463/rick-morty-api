@@ -78,16 +78,16 @@ body {
 .cards-personajes {
   background-color: #043c6e;
   width: 90%;
+  height: 300px;
   font-size: 25px;
   margin-top: 70px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-content: center;
   position: relative;
   border-radius: 20px;
   color: #ebe480;
+  font-weight: bold;
 }
 
 .cards-personajes:hover {
@@ -97,6 +97,8 @@ body {
 .cards-personajes-imagen {
   border-radius: 10px;
   padding-right: 1px;
+  width: 250px;
+  height: 300px;
 }
 
 .cards-personajes-id {
@@ -175,6 +177,71 @@ body {
 
 .cards-locations-id {
   position: absolute;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .cards-personajes-contenedor {
+    grid-template-columns: 1fr;
+  }
+  .cards-personajes {
+    font-size: 17px;
+    height: 200px;
+  }
+  .cards-personajes-imagen {
+    width: 200px;
+    height: 200px;
+  }
+  .cards-margen {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 557px) and (max-width: 740px) {
+  .cards-personajes-contenedor {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cards-personajes {
+    font-size: 15px;
+    height: 230px;
+  }
+  .cards-personajes-imagen {
+    width: 150px;
+    height: 230px;
+  }
+  .cards-margen {
+    margin-top: 70px;
+  }
+}
+@media screen and (min-width: 741px) and (max-width: 992px) {
+  .cards-personajes-contenedor {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cards-personajes {
+    font-size: 18px;
+    height: 230px;
+  }
+  .cards-personajes-imagen {
+    width: 210px;
+    height: 230px;
+  }
+  .cards-margen {
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1470px) {
+  .cards-personajes-contenedor {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .cards-personajes {
+    font-size: 15px;
+    height: 280px;
+  }
+  .cards-personajes-imagen {
+    width: 180px;
+    height: 280px;
+  }
+  .cards-margen {
+    margin-top: 90px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -17,16 +17,16 @@
 
     background-color: $color-fondo-card;
     width: 90%;
+    height: 300px;
     font-size: 25px;
     margin-top: 70px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-content: center;
     position: relative;
     border-radius: 20px;
     color: $color-letra;
+    font-weight: bold;
    
 }
 
@@ -40,6 +40,9 @@
 
     border-radius: 10px;
     padding-right: 1px;
+    width: 250px;
+    height: 300px;
+
 
 }
 
