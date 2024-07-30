@@ -6,9 +6,9 @@
 
 body {
   background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 /* GENERALES - FIN */
@@ -193,6 +193,12 @@ body {
   .cards-margen {
     margin-top: 50px;
   }
+  body {
+    background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
 }
 @media screen and (min-width: 557px) and (max-width: 740px) {
   .cards-personajes-contenedor {
@@ -208,6 +214,12 @@ body {
   }
   .cards-margen {
     margin-top: 70px;
+  }
+  body {
+    background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
   }
 }
 @media screen and (min-width: 741px) and (max-width: 992px) {
@@ -225,6 +237,12 @@ body {
   .cards-margen {
     margin-top: 60px;
   }
+  body {
+    background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1470px) {
   .cards-personajes-contenedor {
@@ -240,6 +258,12 @@ body {
   }
   .cards-margen {
     margin-top: 90px;
+  }
+  body {
+    background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
   }
 }
 
