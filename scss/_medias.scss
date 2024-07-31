@@ -25,7 +25,18 @@
     
     }
 
-   
+    body {
+
+        background-image: url("https://i.pinimg.com/736x/b3/e5/b5/b3e5b577f7cc93f812d8d73a04799660.jpg");
+        background-size: cover; /* Cubre toda el área del viewport */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat; /* Asegura que la imagen no se repita */
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-x: hidden; /* Evita el desbordamiento horizontal */
+    }
 
 
 }
@@ -57,15 +68,6 @@
     .cards-margen {
 
         margin-top: 70px;
-    
-    }
-
-    body {
-
-        background-color: red;
-        background-size: cover;
-        background-attachment: fixed ;
-        background-position: center ;
     
     }
 

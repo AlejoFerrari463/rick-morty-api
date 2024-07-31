@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* GENERALES - INICIO */
 * {
   margin: 0;
@@ -6,9 +7,14 @@
 
 body {
   background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
-  background-size: cover;
+  background-size: cover; /* Cubre toda el área del viewport */
   background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat; /* Asegura que la imagen no se repita */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* Evita el desbordamiento horizontal */
 }
 
 /* GENERALES - FIN */
@@ -193,6 +199,17 @@ body {
   .cards-margen {
     margin-top: 50px;
   }
+  body {
+    background-image: url("https://i.pinimg.com/736x/b3/e5/b5/b3e5b577f7cc93f812d8d73a04799660.jpg");
+    background-size: cover; /* Cubre toda el área del viewport */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; /* Asegura que la imagen no se repita */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+  }
 }
 @media screen and (min-width: 557px) and (max-width: 740px) {
   .cards-personajes-contenedor {
@@ -208,12 +225,6 @@ body {
   }
   .cards-margen {
     margin-top: 70px;
-  }
-  body {
-    background-color: red;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
   }
 }
 @media screen and (min-width: 741px) and (max-width: 992px) {
