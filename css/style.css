@@ -210,7 +210,10 @@ body {
     margin-top: 70px;
   }
   body {
-    background-size: 700px;
+    background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; /* Asegura que la imagen no se repita */
   }
 }
 @media screen and (min-width: 741px) and (max-width: 992px) {
