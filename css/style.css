@@ -11,10 +11,6 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; /* Asegura que la imagen no se repita */
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow-x: hidden; /* Evita el desbordamiento horizontal */
 }
 
 /* GENERALES - FIN */
@@ -200,10 +196,7 @@ body {
     margin-top: 50px;
   }
   body {
-    background-image: url("https://i.pinimg.com/736x/b3/e5/b5/b3e5b577f7cc93f812d8d73a04799660.jpg");
-    background-size: cover; /* Cubre toda el área del viewport */
     background-attachment: scroll;
-    background-position: center;
   }
 }
 @media screen and (min-width: 557px) and (max-width: 740px) {
