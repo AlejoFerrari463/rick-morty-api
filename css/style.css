@@ -5,9 +5,9 @@
 }
 
 body {
-  background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
+  background-image: url("https://resizing.flixster.com/xqwm6IwizNOlJk2-V9pOhcZHcpU=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11928964_b_v8_ac.jpg");
   background-attachment: fixed;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat; /* Asegura que la imagen no se repita */
   background-size: cover;
 }
@@ -193,12 +193,6 @@ body {
   }
   .cards-margen {
     margin-top: 50px;
-  }
-  body {
-    background-image: url("https://i.pinimg.com/originals/b3/e5/b5/b3e5b577f7cc93f812d8d73a04799660.jpg");
-    background-size: auto;
-    background-repeat: no-repeat; /* Asegura que la imagen no se repita */
-    background-position: center;
   }
 }
 @media screen and (min-width: 557px) and (max-width: 740px) {
