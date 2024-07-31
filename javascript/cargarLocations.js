@@ -4,10 +4,11 @@ export function cargarUrl(url){
 
     contenedorCards.innerHTML=``
 
-    document.body.style.backgroundImage = url('https://wallpapercave.com/wp/wp3277657.jpg');
-    document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundAttachment = "fixed";
-    document.body.style.backgroundPosition = "center";
+    
+document.body.style.backgroundImage = "url('https://wallpapercave.com/wp/wp3277657.jpg')";
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundAttachment = "fixed";
+document.body.style.backgroundPosition = "center";
 
     fetch(url)
     .then(response =>{
