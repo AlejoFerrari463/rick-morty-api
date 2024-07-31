@@ -8,7 +8,7 @@ body {
   background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
   background-attachment: fixed;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat; /* Asegura que la imagen no se repita */
 }
 
@@ -194,6 +194,11 @@ body {
   .cards-margen {
     margin-top: 50px;
   }
+  body {
+    background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
+    background-position: center;
+    background-size: 300px;
+  }
 }
 @media screen and (min-width: 557px) and (max-width: 740px) {
   .cards-personajes-contenedor {
@@ -209,13 +214,6 @@ body {
   }
   .cards-margen {
     margin-top: 70px;
-  }
-  body {
-    background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; /* Asegura que la imagen no se repita */
   }
 }
 @media screen and (min-width: 741px) and (max-width: 992px) {
