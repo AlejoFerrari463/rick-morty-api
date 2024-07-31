@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* GENERALES - INICIO */
 * {
   margin: 0;
@@ -7,7 +6,6 @@
 
 body {
   background-image: url("https://wallpapercave.com/wp/wp3277657.jpg");
-  background-size: auto; /* Cubre toda el área del viewport */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; /* Asegura que la imagen no se repita */
@@ -195,9 +193,6 @@ body {
   .cards-margen {
     margin-top: 50px;
   }
-  body {
-    background-attachment: scroll;
-  }
 }
 @media screen and (min-width: 557px) and (max-width: 740px) {
   .cards-personajes-contenedor {
@@ -213,6 +208,9 @@ body {
   }
   .cards-margen {
     margin-top: 70px;
+  }
+  body {
+    background-size: 700px;
   }
 }
 @media screen and (min-width: 741px) and (max-width: 992px) {
