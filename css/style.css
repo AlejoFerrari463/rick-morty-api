@@ -93,7 +93,7 @@ body {
 .cards-personajes-imagen {
   border-radius: 10px;
   padding-right: 1px;
-  width: 250px;
+  width: 260px;
   height: 300px;
 }
 
@@ -153,7 +153,7 @@ body {
 
 .cards-locations {
   background-color: #043c6e;
-  width: 70%;
+  width: 24vw;
   height: 400px;
   font-size: 20px;
   margin-top: 70px;
@@ -175,6 +175,7 @@ body {
   position: absolute;
 }
 
+/* MEDIA QUERIE PERSONAJES - INICIO */
 @media screen and (min-width: 0px) and (max-width: 576px) {
   .cards-personajes-contenedor {
     grid-template-columns: 1fr;
@@ -239,5 +240,36 @@ body {
     margin-top: 90px;
   }
 }
+/* MEDIA QUERIE PERSONAJES - FIN */
+/* MEDIA QUERIE LOCATIONS - INICIO */
+@media screen and (min-width: 0px) and (max-width: 556px) {
+  .cards-locations-contenedor {
+    grid-template-columns: 1fr;
+  }
+  .cards-locations {
+    width: 80vw;
+  }
+}
+@media screen and (min-width: 557px) and (max-width: 992px) {
+  .cards-locations-contenedor {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cards-locations {
+    width: 40vw;
+  }
+}
+@media screen and (max-height: 510px) {
+  .cards-locations {
+    height: 300px;
+  }
+}
+/* MEDIA QUERIE LOCATIONS - FIN */
+/* MEDIA QUERIE EPISODIOS - INICIO */
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .cards-episodios-contenedor {
+    grid-template-columns: 1fr;
+  }
+}
+/* MEDIA QUERIE EPISODIOS - FIN */
 
 /*# sourceMappingURL=style.css.map */

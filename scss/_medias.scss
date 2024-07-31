@@ -1,3 +1,5 @@
+/* MEDIA QUERIE PERSONAJES - INICIO */
+
 @media screen and (min-width: 0px) and (max-width: 576px) {
     
     .cards-personajes-contenedor {
@@ -127,6 +129,83 @@
 
  
 
+}
+
+/* MEDIA QUERIE PERSONAJES - FIN */
+
+
+/* MEDIA QUERIE LOCATIONS - INICIO */
+
+
+@media screen and (min-width: 0px) and (max-width: 556px) {
+    
+    .cards-locations-contenedor {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .cards-locations {
+
+        width: 80vw;
+    
+    }
+
+  
 
 }
 
+@media screen and (min-width: 557px) and (max-width: 992px) {
+    
+    .cards-locations-contenedor {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .cards-locations {
+
+        width: 40vw;
+    
+    }
+
+  
+
+}
+
+
+@media screen and (max-height: 510px) {
+    
+
+    .cards-locations {
+
+        height: 300px;
+    
+    }
+
+  
+
+}
+
+
+/* MEDIA QUERIE LOCATIONS - FIN */
+
+
+
+/* MEDIA QUERIE EPISODIOS - INICIO */
+
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    
+    .cards-episodios-contenedor {
+
+        grid-template-columns: 1fr;
+
+    }
+
+  
+
+}
+
+
+/* MEDIA QUERIE EPISODIOS - FIN */
